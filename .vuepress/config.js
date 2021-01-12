@@ -22,17 +22,17 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间轴",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "文档",
         "icon": "reco-message",
         "items": [
           {
@@ -42,12 +42,17 @@ module.exports = {
         ]
       },
       {
-        "text": "Contact",
+        "text": "联系",
         "icon": "reco-message",
         "items": [
           {
+            "text": "简书",
+            "link": "https://www.jianshu.com/u/96fc046a579b",
+            "icon": "reco-jianshu"
+          },
+          {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/ynwshy",
             "icon": "reco-github"
           }
         ]
@@ -65,11 +70,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "分类"
       },
       "tag": {
-        "location": 3,
-        "text": "Tag"
+        "location": 4,
+        "text": "标签"
       }
     },
     "friendLink": [
