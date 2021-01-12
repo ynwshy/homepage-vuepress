@@ -1,12 +1,6 @@
 #!/usr/bin/env sh
-###
- # @Author: your name
- # @Date: 2021-01-12 17:03:24
- # @LastEditTime: 2021-01-12 17:05:09
- # @LastEditors: Please set LastEditors
- # @Description: In User Settings Edit
- # @FilePath: \homepage-vuepress\.travis-deploy.sh
-### 
+
+
 
 # 确保脚本抛出遇到的错误
 set -e
@@ -32,6 +26,7 @@ git commit -m 'deploy'
 
 
 # 如果使用 travis 持续集成
-git push -f https://${github_personal_access_token}@github.com/ynwshy/ynwshy.github.io.git master:master
+# git push -f https://${github_personal_access_token}@github.com/ynwshy/ynwshy.github.io.git master:master
+# git push -f https://${github_personal_access_token}@github.com/ynwshy/ynwshy.github.io.git master:gh-pages
 
 cd -
