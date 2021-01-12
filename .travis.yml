@@ -9,6 +9,7 @@ before_install:
 
 install:
   - npm install
+  - npm run build
   # - npm install hexo-deployer-git --save
 
 script:
