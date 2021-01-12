@@ -1,11 +1,27 @@
-# VuePress 快速上手
-
-### 步骤一：git clone git@mobike.io:zhangyunchen/vuepress-devkit.git
-
-### 步骤二：运行 npm install
-
-### 步骤三：运行 npm run dev
-
-### 最后：打开 http://localhost:8080/ 即可看到一个 Vue 文档风格的网站
-
-#### PS. 想获取更多部署方法，可以点击“快速上手” 第五节 部署上线，按步骤操作即可
+---
+home: true
+heroText: vuepress-theme-reco
+tagline: A simple and beautiful vuepress blog theme.
+# heroImage: /hero.png
+# heroImageStyle: {
+#   maxWidth: '600px',
+#   width: '100%',
+#   display: block,
+#   margin: '9rem auto 2rem',
+#   background: '#fff',
+#   borderRadius: '1rem',
+# }
+bgImageStyle: {
+  height: '450px'
+}
+isShowTitleInHome: false
+actionText: Guide
+actionLink: /views/other/guide
+features:
+- title: Yesterday
+  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
+- title: Today
+  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
+- title: Tomorrow
+  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
+---
